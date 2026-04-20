@@ -6,7 +6,8 @@ from mne.preprocessing import ICA
 
 
 #load the BDF file
-file_name = "P04.bdf"
+# change the hash on line 10 with the correct participant number
+file_name = "P#.bdf"
 raw = mne.io.read_raw_bdf(file_name, preload=True)
 
 
